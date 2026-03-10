@@ -2,3 +2,29 @@ body {
     background-color: blanchedalmond;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+
+h1 {
+    font-weight: bolder;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    border : 1px black
+}
+
+#pfp {
+    height: 300px;
+    width: 350px;
+    align-items: center;
+}
+
+#img {
+    text-align: center;
+}
+
+.h2h {
+    color:rgb(rgb(34, 39, 186), green, rgb(174, 174, 255))
+}
