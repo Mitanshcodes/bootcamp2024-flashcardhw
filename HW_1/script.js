@@ -52,16 +52,14 @@ previous_button.addEventListener('click', function() {
 
     currentIndex--;
 
+
+    if (currentIndex < 0) {
+        currentIndex = flashcards.length - 1;
+    }
+
     flashcard_content.innerHTML = flashcards[currentIndex].term;
     console.log(flashcards[currentIndex]);
     
-
-
-    if (currentIndex == 0) {
-        flashcard_content.innerHTML = flashcards[0].term;
-        console.log(flashcards[0]);
-        currentIndex = flashcards.length;
-    }
 }
     )
 
